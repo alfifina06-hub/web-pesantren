@@ -73,13 +73,13 @@
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                    <ul class="nav navbar-nav navbar-right">
+                     <ul class="nav navbar-nav navbar-right">
                         <li class="active"><a href="#home">Beranda</a></li>
-                        <li><a href="#profil pesantren">profil Pesantren</a></li>
-                        <li><a href="#program unggulan">program Unggulan</a></li>
-                        <li><a href="#kegiatan santri">kegiatan santri</a></li>
-                        <li><a href="#pendaftaran">pendaftaran</a></li>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#profil">profil Pesantren</a></li>
+                        <li><a href="#program">program Unggulan</a></li>
+                        <li><a href="#kegiatan">kegiatan santri</a></li>
+                        <li><a href="#formulir-daftar">pendaftaran</a></li>
                         <li><a href="#contact">contact</a></li>
                         <li class="login"><a href="#">Sign In</a></li>
                     </ul>
@@ -89,6 +89,9 @@
         </nav>
 
         <!--Home page style-->
+        html { 
+            scroll-behavior: smooth;
+        }
         <header id="home" class="home">
             <div class="overlay-fluid-block">
                 <div class="container text-center">
@@ -103,7 +106,7 @@
                                     <div class="row">
                                         <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
                                             <div class="home-btn">
-                                                <a href="#pendaftaran" class="btn btn-primary" style="padding: 15px 30px; border: radius 5px; margin-right: 10px;">Daftar Sekarang</a>
+                                                <a href="/daftar" class="btn btn-primary" style="padding: 15px 30px; border: radius 5px; margin-right: 10px;">Daftar Sekarang</a>
                                                 <a href="#profil pesantren" class="btn btn-default" style="padding: 15px 30px; border: radius 5px; background : white; color: black;">Lihat profil</a>
                                             </div>
                                         </div>
@@ -530,9 +533,7 @@
                 </div>
             </div> <!-- /container -->       
         </section>
-
-
-        <section id="pendaftaran" class="contact sections">
+          <section id="formulir-daftar"class="contact sections">
             <div class="container">
                 <div class="row">
                     <div class="main_contact whitebackground">
