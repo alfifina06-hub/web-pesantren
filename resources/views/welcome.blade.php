@@ -97,7 +97,7 @@
                             <div class="col-md-10 col-md-offset-1">
                                 <div class="home-content">
 
-                                    <h1>"Selamat Datang di Pesantren Al-Taqwil</h1>
+                                    <h1>"Selamat Datang di Pesantren At-Taqwil</h1>
                                     <p>"Mencetak Generasi yang Berakhlak Mulia dan Berwawasan Digital</p>
 
                                     <div class="row">
