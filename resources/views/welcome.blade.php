@@ -75,12 +75,12 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#home">Home</a></li>
-                        <li><a href="#features">PRODUCT</a></li>
-                        <li><a href="#service">Service</a></li>
-                        <li><a href="#price">PRICE</a></li>
-                        <li><a href="#business">Business</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li class="active"><a href="#home">Beranda</a></li>
+                        <li><a href="#profil pesantren">profil Pesantren</a></li>
+                        <li><a href="#program unggulan">program Unggulan</a></li>
+                        <li><a href="#kegiatan santri">kegiatan santri</a></li>
+                        <li><a href="#pendaftaran">pendaftaran</a></li>
+                        <li><a href="#contact">contact</a></li>
                         <li class="login"><a href="#">Sign In</a></li>
                     </ul>
 
@@ -98,18 +98,13 @@
                                 <div class="home-content">
 
                                     <h1>"Selamat Datang di Pesantren At-Taqwil</h1>
-                                    <p>"Mencetak Generasi yang Berakhlak Mulia dan Berwawasan Digital</p>
+                                    <p>"Mencetak Generasi yang Mutafaqqih Fiddin, Berakhlakul karimah dan Berwawasan Digital</p>
 
                                     <div class="row">
                                         <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                                            <div class="home-contact">
-                                                <div class="input-group">
-                                                    <input type="text" class="form-control" placeholder="Enter your email address">
-                                                    <input type="submit" class="form-control" value="Use It Free">
-
-                                                </div><!-- /input-group -->
-
-
+                                            <div class="home-btn">
+                                                <a href="#pendaftaran" class="btn btn-primary" style="padding: 15px 30px; border: radius 5px; margin-right: 10px;">Daftar Sekarang</a>
+                                                <a href="#profil pesantren" class="btn btn-default" style="padding: 15px 30px; border: radius 5px; background : white; color: black;">Lihat profil</a>
                                             </div>
                                         </div>
                                     </div>
@@ -124,7 +119,7 @@
         </header>
 
         <!-- Sections -->
-        <section id="features" class="features sections">
+        <section id="profil" class="features sections">
             <div class="container">
                 <div class="row">
                     <div class="main_features_content2">
@@ -137,13 +132,14 @@
 
                         <div class="col-sm-6 margin-top-60">
                             <div class="single_features_right ">
-                                <h2>OUR PRODUCT</h2>
-                                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+                                <h2>VISI & MISI</h2>
+                                <p><strong>Visi:</strong> menjadi lembaga pendidikan islam unggulan yang melahirkan kader pemimpin umat yang ber Akhlaqulkarimah dan berafiliasi pada kemajuan zaman.</p>
+                                <p><strong>Misi:</strong>
                                 <ul>
-                                    <li>Home</li>
-                                    <li>Profile</li>
-                                    <li>Pendaftaran</li>
-                                    <li>Tata Tertib</li>
+                                    <li>1.menanamkan nilai-nilai adab, sopan santun dalam berbicara maupun tingkah laku dalam kegiatan sehari-hari</li>
+                                    <li>2.menyelenggarakan pendidikan tahfidz Al-Qur'an yang intensif dan berkualitas</li>
+                                    <li>3.menggabungkan kurikulum salaf (kitab kunung) dengan kurikulum pendidikan nasional</li>
+                                    <li>4.melatih santri menjadi mandiri dalam kehidupan sehari hari</li>
                                 </ul>
                                 <div class="features_buttom">
                                     <a href="" class="btn btn-default">Read More</a>
@@ -251,7 +247,7 @@
 
 
         <!-- Sections -->
-        <section id="price" class="price sections">
+        <section id="program unggulan" class="price sections">
 
 
             <div class="head_title text-center">
@@ -536,7 +532,7 @@
         </section>
 
 
-        <section id="contact" class="contact sections">
+        <section id="pendaftaran" class="contact sections">
             <div class="container">
                 <div class="row">
                     <div class="main_contact whitebackground">
@@ -594,7 +590,7 @@
         </section><!-- End of Contact Section -->
 
 
-        <section id="footer-menu" class="sections footer-menu">
+        <section id="pendaftaran" class="sections footer-menu">
             <div class="container">
                 <div class="row">
                     <div class="footer-menu-wrapper">
@@ -657,7 +653,7 @@
 
 
         <!--Footer-->
-        <footer id="footer" class="footer">
+        <footer id="pendaftaran" class="contact sections">
             <div class="container">
                 <div class="row">
                     <div class="footer-wrapper">
