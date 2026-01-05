@@ -21,3 +21,6 @@ Route::get('/detail-tahfidz', function () {
 Route::get('/program', function () {
     return view('program_pesantren'); 
 });
+Route::get('/kegiatan', function () {
+    return view('kegiatan_santri'); 
+});

@@ -59,6 +59,15 @@
             </div>
             <button type="button" onclik="alert('terimaksih ! Data pendaftaran telah terkirim.')">kirim pendaftaran</button>
 
+            <div style="margin-top: 20px;">
+        <button type="submit" style="width: 100%; background: #2d5a27; color: white; padding: 15px; border: none; border-radius: 5px; font-weight: bold;">
+            KIRIM PENDAFTARAN
+        </button>
+    </div>
+
+</form> ```
+        <a href="/" class="back-link">Kembali ke Beranda</a>
+
 </div>
 </body>
 </html>
