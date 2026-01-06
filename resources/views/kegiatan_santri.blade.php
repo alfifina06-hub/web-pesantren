@@ -41,6 +41,103 @@
         </div>
     </div>
 </section>
+<div class="container" style="margin-top: 50px;">
+    <h3 class="text-center" style="color: #2d5a27; font-weight: bold; margin-bottom: 30px;">GALERI KEGIATAN SANTRI</h3>
+    <hr style="width: 100px; border: 2px solid #2d5a27; margin: auto; margin-bottom: 40px;">
+    
+    <div class="row">
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <div class="row">
+    <div class="col-md-6">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">Santri putra sholat berjemaah</h4>
+                <div class="col-md-6">
+            </div>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/santri putra berjemaah.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">Santri putri sholat berjemaah</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/berjemaah putri.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">Kegiatan belajar mengajar putra</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/sekolah putra.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+            </div>
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">Kegiatan belajar mengajar putri</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/sekolah putri.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+            </div>
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">Tadarus putri</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/santri putri mengaji.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">Tadarus putra</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/santri putra ngaji.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">KBM kitab kuning</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/ngaji santri putri.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">KBM kitab kuning</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/kuning putra.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">Ekstrakulikuler seni lukis</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/kaligrafi.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="text-center">
+                <h4 style="color: #2d5a27; font-weight: bold; text-transform: uppercase;">Ekstrakulikuler pencak silat</h4>
+            </div>
+            <div class="thumbnail shadow-sm">
+                <img src="{{ asset('images/pencak silat.jpg') }}" style="width: 50%; height: 250px; display: block; margin: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+            </div>
+
+    </div>
+</div>
+
 
 <script>
     function bukaTutup(id) {

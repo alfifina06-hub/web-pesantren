@@ -57,15 +57,13 @@
                 <label for="pekerjaan_ibu">Pekerjaan Ibu:</label>
                 <input type="text" id="pekerjaan_ibu" name="pekerjaan_ibu" required>
             </div>
-            <button type="button" onclik="alert('terimaksih ! Data pendaftaran telah terkirim.')">kirim pendaftaran</button>
+            <button type="submit" onclick="alert('terimaksih ! Data pendaftaran telah terkirim.')">kirim pendaftaran</button>
+        </div>
+        <div class="alert-success" style="background-color: #d4edda; color: #155724; padding: 10px; border-radius: 5px; margin-top: 20px;">
+    {{ session('sukses') }}
+</div>
 
-            <div style="margin-top: 20px;">
-        <button type="submit" style="width: 100%; background: #2d5a27; color: white; padding: 15px; border: none; border-radius: 5px; font-weight: bold;">
-            KIRIM PENDAFTARAN
-        </button>
-    </div>
-
-</form> ```
+      </form>
         <a href="/" class="back-link">Kembali ke Beranda</a>
 
 </div>
